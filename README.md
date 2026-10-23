@@ -2,6 +2,12 @@
 
 An Android app that runs Google's **Gemma 4** AI model entirely on your phone. Chat by text or talk to it hands-free, with no internet needed after the first setup.
 
+## How it works
+
+
+<img width="808" height="361" alt="Screenshot 2026-10-23 084929" src="https://github.com/user-attachments/assets/99837b48-aa95-4c3c-b1d7-14e78959750f" />
+
+
 ## Features
 
 - **Offline AI chat.** Gemma 4 E2B runs on-device, so your messages never leave the phone.
@@ -55,14 +61,6 @@ app/src/main/java/com/aashu/offlinechatbot/
     ├── chat/        Text chat
     ├── voice/       Voice mode
     └── components/  Shared UI pieces
-```
-
-## How it works
-
-```
-<img width="808" height="361" alt="Screenshot 2026-10-23 084929" src="https://github.com/user-attachments/assets/99837b48-aa95-4c3c-b1d7-14e78959750f" />
-
-
 ```
 
 The model file comes from [litert-community/gemma-4-E2B-it-litert-lm](https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm) on Hugging Face.
